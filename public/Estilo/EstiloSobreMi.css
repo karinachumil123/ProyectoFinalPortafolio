@@ -8,10 +8,10 @@
 
 .imagen img {
     max-width: 43%; 
-    height: auto; /* Mantiene la proporción correcta de la imagen */
-    border: 3px solid #033F63; /* Añade un borde de 3px con color personalizado */
+    height: auto; 
+    border: 3px solid #033F63; 
     border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(187, 204, 124, 0.911); /* Añade una sombra ligera para mayor estética */
+    box-shadow: 0 4px 8px rgba(187, 204, 124, 0.911); 
     display: block;
     margin: 2% auto 0px auto; 
 }
@@ -31,9 +31,9 @@
     padding: 8px;
 }
 .texto {
-    width: 100%; /* Asegura que el div ocupe el 100% del ancho de la columna */
-    margin: 0; /* Elimina márgenes por defecto */
-    padding: 5%; /* Ajusta el padding según tus necesidades */
+    width: 100%; 
+    margin: 0; 
+    padding: 5%; 
     border: 3px solid #033F63;
     background-color: #68b0b3;
     border-radius: 10px;
@@ -51,8 +51,8 @@
     color: black;
     border-radius: 10px; 
     font-size: 20px;
-    width: 60%; /* Ocupa el 40% del ancho del navegador */
-    margin: 0 auto; /* Centra horizontalmente */
+    width: 60%; 
+    margin: 0 auto; 
 }
 .caja2 p{
     text-align:justify;

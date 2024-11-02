@@ -20,7 +20,7 @@ body {
     max-width: 800px;
     background: #ffffff10;
     margin: auto;
-    flex: 1; /* Permite que el container ocupe el espacio restante */
+    flex: 1; 
 }
 
 .title h1 {
@@ -74,13 +74,13 @@ body {
 
 
 .menu-toggle-checkbox {
-    display: none; /* Oculta el checkbox */
+    display: none; 
 }
 
 .menu-links {
-    display: none; /* Oculta el menú por defecto */
+    display: none; 
     position: absolute;
-    top: 50px; /* Ajusta según tu diseño */
+    top: 50px; 
     right: 10px;
     background-color: var(--menu-background-color);
     border-radius: 5px;
@@ -103,11 +103,11 @@ body {
 }
 
 .menu-toggle-checkbox:checked + .menu-toggle + .menu-links {
-    display: block; /* Muestra el menú cuando el checkbox está marcado */
+    display: block; 
 }
 
 .menu-links a {
-    display: block; /* Haz que los enlaces se muestren en bloque */
+    display: block; 
     padding: 10px;
     color: var(--text-color);
     text-decoration: none;
@@ -117,24 +117,24 @@ body {
     background-color: rgba(0, 0, 0, 0.1); 
 }
 #header {
-    position: fixed; /* Mantiene el header en la parte superior */
-    top: 0; /* Alinea al top de la pantalla */
-    left: 0; /* Alinea al lado derecho */
-    width: 100%; /* Ocupar todo el ancho de la pantalla */
-    color: white; /* Color de texto blanco */
-    padding: 10px 20px; /* Espaciado interno */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    color: white; 
+    padding: 10px 20px; 
+    z-index: 1000; 
 }
 
 #header a {
-    color: white; /* Color blanco para los enlaces del header */
-    text-decoration: none; /* Sin subrayado */
-    margin-left: 15px; /* Espaciado entre los enlaces */
+    color: white; 
+    text-decoration: none; 
+    margin-left: 15px; 
     font-style:italic;
 }
 
 #header a:hover {
-    text-decoration: underline; /* Efecto hover en los enlaces */
+    text-decoration: underline; 
 }
 .caja1 {
     display: flex;
@@ -160,8 +160,6 @@ body {
     color: #ffffff;
 }
 
-
-/* Footer Styling */
 #footer {
     background-color: #155d5f;
     padding: 10px 0;
@@ -186,7 +184,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Form Styling */
 form {
     display: flex;
     flex-wrap: wrap;
@@ -198,7 +195,7 @@ form {
 }
 
 .field.half {
-    flex: 1 1 40%; /* Ocupa el 45% del ancho */
+    flex: 1 1 40%; 
 }
 
 .field.full {
@@ -239,7 +236,6 @@ textarea {
     border-radius: 5px;
 }
 
-/* Social Icons Styling */
 .icons {
     display: flex;
     gap: 20px;
