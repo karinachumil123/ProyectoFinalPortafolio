@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 100px; /* Ajusta este valor según el alto de tu header */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px; 
+    color: white;
+}
+
+.proyecto {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(0.8);
+    transition: 0.3s;
+}
+
+.proyecto:hover img {
+    filter: brightness(1);
+}
+
+.proyecto span {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}

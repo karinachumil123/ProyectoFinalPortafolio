@@ -1,0 +1,70 @@
+.contenidoS {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px; 
+    align-items: center; 
+    margin-top: 0%;
+}
+
+.imagen img {
+    max-width: 43%; 
+    height: auto; /* Mantiene la proporción correcta de la imagen */
+    border: 3px solid #033F63; /* Añade un borde de 3px con color personalizado */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(187, 204, 124, 0.911); /* Añade una sombra ligera para mayor estética */
+    display: block;
+    margin: 2% auto 0px auto; 
+}
+
+.contenidoS, .caja2 p{
+    color: #000000;
+    font-size: 20px;
+    margin-left: 10%;
+    align-items:center;
+    padding: 10px;
+}
+
+.texto  p{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding: 8px;
+}
+.texto {
+    width: 100%; /* Asegura que el div ocupe el 100% del ancho de la columna */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 5%; /* Ajusta el padding según tus necesidades */
+    border: 3px solid #033F63;
+    background-color: #68b0b3;
+    border-radius: 10px;
+    margin-top: 3%;
+    box-sizing: border-box; 
+    text-align: right;
+}
+
+.caja2 {
+    flex-direction: column; 
+    padding: 40px; 
+    box-sizing: border-box; 
+    background-color: #68b0b3; 
+    border: 3px solid #033F63;
+    color: black;
+    border-radius: 10px; 
+    font-size: 20px;
+    width: 60%; /* Ocupa el 40% del ancho del navegador */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+.caja2 p{
+    text-align:justify;
+    padding: 20px;
+    line-height: 1.6;
+}
+.caja2 ul{
+    text-align:justify;
+    padding: 20px;
+    line-height: 1.6;
+}
+.titulo p{
+    color: white;
+    font-size: 25px;
+}

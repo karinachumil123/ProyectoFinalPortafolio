@@ -1,0 +1,96 @@
+body{
+    background-color: #bedde9;
+}
+.caja {
+    margin: 0;
+    padding: 5px;
+    width: 32%; 
+    height: 100vh; 
+    background-color: #002942;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 2; 
+}
+
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.card h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+h2 a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    color: rgb(0, 37, 48);
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.caja img {
+    display: block;
+    margin: 0 auto; 
+    height: 60%; /* Ajusta la altura de la imagen */
+    position: relative;
+}
+
+.caja2i{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center; 
+    margin-left: 35%; 
+    padding: 20px; 
+    color: black;
+    border-radius: 10px; 
+    font-weight: bold;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cajaG {
+    width: 70%; /* El div ocupará el 70% del ancho del navegador */
+    margin-top: 15vh; /* Espacio del 10% desde la parte superior de la pantalla */
+    background-color: #97cbd8;
+    padding: 20px;
+    border: 2px solid #033F63;
+    border-radius: 10px;
+    margin-left: auto; /* Centra el div horizontalmente */
+    margin-right: auto; /* Centra el div horizontalmente */
+}
+.cajaG img {
+    width: 80%;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #033F63;
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}
+
+.cajaG p{
+    text-align: left;
+    color: black;
+    line-height: 1.5;
+}
+

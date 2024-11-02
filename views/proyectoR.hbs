@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoR</title>
+    <link rel="stylesheet" href="./Estilo/general.css">
+    <link rel="stylesheet" href="./Estilo/inicio.css">
+</head>
+
+        <!-- Header -->
+		{{> header}}
+
+        <!-- Nav -->
+		{{> navbar}}
+
+<body>
+<div class="cajaG">
+   <h2>PROYECTO EN RAILWAY</h2> <br>
+   <p>Este proyecto es una aplicación web educativa orientada a facilitar el aprendizaje y uso de Node.js 
+    para el desarrollo backend. Este proyecto, alojado en un entorno de despliegue en Railway, ofrece una 
+    base sólida para enseñar a los usuarios cómo crear aplicaciones en Node.js desde los conceptos básicos 
+    hasta temas avanzados.<br><br>
+    <img  src="../images/railway.png" alt="Card 1"><br>
+    Estructura de la Aplicación: <br>
+    Express.js: La aplicación utiliza Express para manejar el enrutamiento, con endpoints 
+    configurados para cada módulo del curso.<br>
+    Vistas Dinámicas: Emplea plantillas HTML y CSS para ofrecer una interfaz amigable, donde los usuarios 
+    pueden interactuar y explorar ejemplos de código en tiempo real.<br>
+    Controladores y Rutas: Se organiza el código en diferentes rutas y controladores, facilitando la gestión 
+    de la lógica de cada sección de aprendizaje.<br><br>
+    <img  src="../images/Generic.png" alt="Card 1"><br>
+    Este proyecto incorpora la funcionalidad de partials para optimizar la estructura de la aplicación y 
+    facilitar la reutilización de componentes comunes en las vistas. Se ha añadido un header, un navbar, y 
+    un footer como partials, permitiendo que estas secciones aparezcan de forma consistente en todas las 
+    páginas. Esta organización mejora la eficiencia y el mantenimiento del código, ya que cualquier cambio 
+    en estos componentes se aplica automáticamente en todo el sitio. Además, los partials permiten un diseño 
+    más limpio y modular en el frontend, ofreciendo una experiencia de usuario coherente y profesional.<br><br>
+    <img  src="../images/Elemnet.png" alt="Card 1"><br>
+    Despliegue en Railway: Este proyecto se despliega en Railway, permitiendo una experiencia en vivo para 
+    los usuarios y evitando la necesidad de configuraciones locales complejas, algo que facilita el acceso y 
+    la escalabilidad del curso.    <br><br></p>
+<img  src="../images/railway.png" alt="Card 1"><br>
+<p><a href="https://github.com/karinachumil123/Proyecto-Estad-stica-1.git" target="_blank">Proyecto en GITHUB</a></p>
+<p><a href="https://curso-node-js-production.up.railway.app" target="_blank">Proyecto en RAILWAY</a></p>
+</div> <br><br>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        {{> footer}}
+    </footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
+    <link rel="stylesheet" href="./Estilo/EstiloPortafolio.css">
+    <link rel="stylesheet" href="./Estilo/general.css">
+    <link rel="stylesheet" href="./Estilo/inicio.css">
+</head>
+        <!-- Header -->
+		{{> header}}
+
+        <!-- Nav -->
+		{{> navbar}}
+
+<body><br><br><br>
+    <main>
+        <P class="titulo">PROYECTOS</P>
+        <div class="contenedor">
+            <div class="card">
+                <img  src="../images/Proyecto NOVA.png" alt="Card 1">
+                <h2 class="tileCard"><a href="/reciente" >PROYECTO AQUAVET</a></h2>
+            </div>
+            <div class="card">
+                <img  src="../images/Proyecto Compilador.png" alt="Card 1">
+                <h2 class="tileCard"><a href="/analizador1" >ANALIZADOR LEXICO</a></h2>
+            </div>
+
+            <div class="card">
+                <img  src="../images/Proyecto Estadistica.png" alt="Card 1">
+                <h2 class="tileCard"><a href="/teorema" >TEOREMAS</a></h2>
+            </div>
+
+            <div class="card">
+                <img  src="../images/Proyecto SO.png" alt="Card 1">
+                <h2 class="tileCard"><a href="/carwindows" >CARACTERISTICAS DE WINDOWS</a></h2>
+            </div>
+
+            <div class="card">
+                <img  src="../images/Proyecto Progra Clinica Dent.png" alt="Card 1">
+                <h2 class="tileCard">CLINICA DENTAL</h2>
+                <p class="descriptionCard">Este programa, desarrollado en Visual Studio con<br>
+                                           C++, es un sistema diseñado para una clínica dental. <br>
+                                           Implementa una estructura de nodos utilizando árboles, <br>
+                                           optimizando así la velocidad y la compatibilidad del <br>
+                                           sistema. Este enfoque permite una gestión eficiente de <br>
+                                           los datos y una rápida respuesta en las operaciones, <br>
+                                           asegurando un rendimiento superior en entornos<br>
+                                           clínicos donde la precisión y la rapidez son esenciales.</p>
+                                           <p><a href="https://github.com/karinachumil123/ClinicaDental_Proyecto.git" target="_blank">Proyecto en GITHUB</a></p>
+        </div>
+
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        {{> footer}}
+    </footer>
+
+</body>
+</html>

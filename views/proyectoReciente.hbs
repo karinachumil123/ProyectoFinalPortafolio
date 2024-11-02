@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos Recientes</title>
+    <link rel="stylesheet" href="./Estilo/proyectos.css">
+    <link rel="stylesheet" href="./Estilo/inicio.css">
+</head>
+        <!-- Header -->
+		{{> header}}
+
+        <!-- Nav -->
+		{{> navbar}}
+
+<body><br>
+    <h2>PROYECTOS RECIENTES</h2><br><br>
+    <div class="container">
+        <a href="/MRU-MRUV" class="proyecto proyecto1">
+            <img src="../images/MRU MRUV.png" alt="Proyecto 1">
+            <span>APLICACIÓN MRU -MRUV</span>
+        </a>
+        <a href="/proyectoR" class="proyecto proyecto2">
+            <img src="../images/railway.png"alt="Proyecto 2">
+            <span>PROYECTO RAILWAY</span>
+        </a>
+        <a href="/tablas" class="proyecto proyecto3">
+            <img src="../images/appMultiplicar.png" alt="Proyecto 3">
+            <span>TABLAS DE MULTIPLICAR</span>
+        </a>
+        <a href="/Ferreteria" class="proyecto proyecto4">
+            <img src="../images/elcondor.png" alt="Proyecto 4">
+            <span>PROYECTO FERRETERÍA EL CONDOR</span>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        {{> footer}}
+    </footer>
+</body>
+</html>
